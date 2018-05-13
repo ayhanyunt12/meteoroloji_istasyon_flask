@@ -37,13 +37,37 @@ Response body:
       },
     ]
 
-### POST /station
+### GET /station/id
 
 Example: http://172.104.135.186:5000/station/2
 
 Response body:
 
     {
+        id: 2,
+        lang: 37.015,
+        latd: 39.7505,
+        name: "Sivas",
+        public_id: "c9efdf46-4bdd-4cc2-a2f5-65c48261c445",
+    }
+    
+### POST /station
+
+Example: http://172.104.135.186:5000/station
+
+Request body:
+
+    [
+        {
+          name: "Sivas_Update"
+          lang: 37.015,
+          latd: 39.7505
+        }
+    ]
+    
+Response body:
+
+  {
         id: 2,
         lang: 37.015,
         latd: 39.7505,
