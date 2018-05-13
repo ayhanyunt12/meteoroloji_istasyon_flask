@@ -16,7 +16,7 @@
 
 ### GET /stations
 
-Example: http://http://172.104.135.186:3001/stations
+Example: http://172.104.135.186:5000/stations
 
 Response body:
 
@@ -39,7 +39,7 @@ Response body:
 
 ### POST /station
 
-Example: http://http://172.104.135.186:3001/station/2
+Example: http://172.104.135.186:5000/station/2
 
 Response body:
 
@@ -53,7 +53,7 @@ Response body:
 
 ### PUT /station
 
-Example: http://http://172.104.135.186:3001/station
+Example: http://172.104.135.186:5000/station
 
 Request body:
 
@@ -72,7 +72,7 @@ Response body:
  
 ### DELETE /station/public_id
 
-Example: http://http://172.104.135.186:3001/station/c9efdf46-4bdd-4cc2-a2f5-65c48261c445
+Example: http://172.104.135.186:5000/station/c9efdf46-4bdd-4cc2-a2f5-65c48261c445
 
 Response body:
 
